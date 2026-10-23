@@ -1,0 +1,35 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local database
+db.sqlite3
+
+# Test files
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Operating system files
+Thumbs.db
+.DS_Store
+Desktop.ini
